@@ -125,7 +125,7 @@
   ];
 
   function buildPrompt(q){
-    var base = "You're helping me evaluate Fulvio de Giovanni for a senior technical role. First, read his professional profile here:\n\n" + KB_URL + "\n\n";
+    var base = "You're helping me evaluate Fulvio de Giovanni for a senior role. First, read his professional profile here:\n\n" + KB_URL + "\n\n";
     if(!q){
       return base + "When you've read it, do NOT summarize it. Just tell me you're ready and suggest 3-4 questions I could ask (for example his AI and agentic-commerce work, a complex project he led, or his fit for a specific role). Then answer my questions using only that document; if something isn't covered, say so.";
     }
