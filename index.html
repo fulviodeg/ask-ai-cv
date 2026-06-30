@@ -109,7 +109,7 @@
 <script>
   /* ====== EDIT THESE IF YOUR GITHUB USER / REPO / FILES CHANGE ====== */
   var BASE     = "https://fulviodeg.github.io/ask-ai-cv/";
-  var KB_URL   = BASE + "fulvio-de-giovanni.md";          // the profile the AI reads
+  var KB_URL   = BASE + "profile.html";                   // the profile the AI reads (HTML = reliably fetchable by every AI)
   var CV_URL   = BASE + "Fulvio-de-Giovanni-CV.pdf";      // the PDF behind "Open my full CV"
   var ANALYTICS = "";  // optional: paste your GoatCounter URL, e.g. "https://fulviodeg.goatcounter.com/count"
   /* ================================================================= */
@@ -125,7 +125,7 @@
   ];
 
   function buildPrompt(q){
-    var base = "You're helping me evaluate Fulvio de Giovanni for a senior role. First, read his professional profile here:\n\n" + KB_URL + "\n\n";
+    var base = "You're helping me evaluate Fulvio de Giovanni for a senior technical role. Use your web browsing to open this page directly and read all of it — fetch the URL itself, don't rely on search results:\n\n" + KB_URL + "\n\n";
     if(!q){
       return base + "When you've read it, do NOT summarize it. Just tell me you're ready and suggest 3-4 questions I could ask (for example his AI and agentic-commerce work, a complex project he led, or his fit for a specific role). Then answer my questions using only that document; if something isn't covered, say so.";
     }
