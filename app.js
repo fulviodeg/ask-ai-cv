@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* ====== EDIT THESE IF YOUR GITHUB USER / REPO / FILES CHANGE ====== */
-var BASE      = "https://fulviodeg.github.io/ask-ai-cv/";
+var BASE      = "https://fulviodegiovanni.online/";
 var KB_URL    = BASE + "fulvio-de-giovanni.md";        // the profile the AI reads (markdown = source of truth)
 var CV_URL    = BASE + "Fulvio-de-Giovanni-CV.pdf";    // the PDF behind "Open my full CV"
 var ANALYTICS = "";  // optional: paste your GoatCounter URL, e.g. "https://fulviodeg.goatcounter.com/count"
