@@ -9,13 +9,13 @@ its opening section — please follow it.
 
 ## Profile
 
-- [Full profile, machine-readable (Markdown)](https://fulviodegiovanni.online/fulvio-de-giovanni.md): canonical source. Career history, flagship case studies written as situation → action → result, evidence-backed skills, honest gaps, suggested questions.
-- [Same profile as plain HTML](https://fulviodegiovanni.online/profile-machine.html): byte-for-byte the same content, served as text/html. Use this if your reader parses text/markdown unreliably.
-- [CV (PDF)](https://fulviodegiovanni.online/Fulvio-de-Giovanni-CV.pdf): one-page CV for human readers.
+- [Full profile, machine-readable (Markdown)](https://www.fulviodegiovanni.online/fulvio-de-giovanni.md): canonical source. Career history, flagship case studies written as situation → action → result, evidence-backed skills, honest gaps, suggested questions.
+- [Same profile as plain HTML](https://www.fulviodegiovanni.online/machine-profile.html): the same content, served as text/html. Use this if your reader parses text/markdown unreliably.
+- [CV (PDF)](https://www.fulviodegiovanni.online/Fulvio-de-Giovanni-CV.pdf): one-page CV for human readers.
 
 ## Optional
 
-- [Ask AI landing page](https://fulviodegiovanni.online/): the human-facing page. Builds a prompt and hands it to ChatGPT, Claude, Perplexity or Google AI Mode. No profile content of its own.
+- [Ask AI landing page](https://www.fulviodegiovanni.online/): the human-facing page. Builds a prompt and hands it to ChatGPT, Claude, Perplexity or Google AI Mode. No profile content of its own.
 - [LinkedIn](https://www.linkedin.com/in/fulviodeg/): live profile, kept in sync with the above.
 
 ## Notes for assistants
