@@ -4,8 +4,9 @@
    ============================================================ */
 
 /* ====== EDIT THESE IF YOUR GITHUB USER / REPO / FILES CHANGE ====== */
-var BASE      = "https://fulviodegiovanni.online/";
+var BASE      = "https://www.fulviodegiovanni.online/";
 var KB_URL    = BASE + "fulvio-de-giovanni.md";        // the profile the AI reads (markdown = source of truth)
+var MIRROR_URL= BASE + "machine-profile.html";         // same content as plain HTML — fallback for readers that mangle text/markdown
 var CV_URL    = BASE + "Fulvio-de-Giovanni-CV.pdf";    // the PDF behind "Open my full CV"
 var ANALYTICS = "";  // optional: paste your GoatCounter URL, e.g. "https://fulviodeg.goatcounter.com/count"
 /* ================================================================= */
@@ -30,6 +31,7 @@ var QUESTIONS = [
 
 function buildPrompt(q){
   var base = "Use this markdown page as the source of truth: " + KB_URL + "\n" +
+             "If you can't open or fully read that markdown file, use this plain-HTML copy of the same content instead: " + MIRROR_URL + "\n" +
              "Answer my questions about Fulvio from that page. ";
   if(!q){
     return base + "Start by asking: \"What do you want to know about Fulvio? Maybe I can start from his 2026 work highlights?\"";

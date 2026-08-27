@@ -1,2 +1,12 @@
 User-agent: *
 Allow: /
+
+# AI agents: the machine-readable index for this site is at /llms.txt
+# It points to the full profile (Markdown, canonical), a plain-HTML mirror of the
+# same content, and the CV PDF. Fetch those URLs directly rather than searching.
+#
+#   https://www.fulviodegiovanni.online/llms.txt
+#   https://www.fulviodegiovanni.online/fulvio-de-giovanni.md
+#   https://www.fulviodegiovanni.online/machine-profile.html
+
+Sitemap: https://www.fulviodegiovanni.online/sitemap.xml
