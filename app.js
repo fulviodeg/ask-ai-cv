@@ -7,7 +7,7 @@
 var BASE      = "https://www.fulviodegiovanni.online/";
 var KB_URL    = BASE + "fulvio-de-giovanni.md";        // the profile the AI reads (markdown = source of truth)
 var MIRROR_URL= BASE + "machine-profile.html";         // same content as plain HTML — fallback for readers that mangle text/markdown
-var CV_URL    = BASE + "Fulvio-de-Giovanni-CV.pdf";    // the PDF behind "Open my full CV"
+var CV_URL    = BASE + "Fulvio_de_Giovanni-CV.pdf";    // the PDF behind "Open my full CV"
 var ANALYTICS = "";  // optional: paste your GoatCounter URL, e.g. "https://fulviodeg.goatcounter.com/count"
 /* ================================================================= */
 
